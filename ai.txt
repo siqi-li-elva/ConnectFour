@@ -1,0 +1,15 @@
+AI:
+•Did you attempt to make your computer player very smart -- i.e., do something more clever than just pick a random legal move?
+	⁃yes.
+	⁃whenever the computer’s turn, check all 7 possible steps, and after each step take, check all the following steps by using Monte Carlo algorithm with test runs around hundreds.
+	⁃make the player and computer to randomly choose the next step till the game is over, win or tie or lose
+	⁃record this hundreds of test run’s win scores. win count 1 lose count 0, and tie count 0.2
+	⁃pick the highest score step from the test run.
+•If so, were you able to accomplish this? Is your computer player as smart as you would like?
+	⁃a little, while testing, there is an amount of time that the computer can win.
+	•How did you determine which piece to play next? Tell us about your “pick next move” algorithm
+	⁃pick the next move according to the process I described above. The highest score’s move from those hundreds of test runs.
+•How often did your computer program beat you, or your friends, or whoever tested it out for you?
+	⁃around 60% the computer will win.
+	•How would you improve it in the future?
+	⁃not sure. Might be give the Monte Carlo test run for two steps test runs. make the computer thinking two steps a head.
